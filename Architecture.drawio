@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T14:19:12.372Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.56" etag="eJa0n0TUk92GI1T3Lsgn" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-04T14:53:32.286Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.56" etag="LngSfvBN6k2alfL_V2KY" version="14.2.9" type="github" pages="2">
   <diagram id="GLFHSqSfIn8HMDW92Phs" name="全体の流れ">
     <mxGraphModel dx="942" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -146,6 +146,93 @@
         </mxCell>
         <mxCell id="nCw91jut2g6RF1v3F2Ao-2" value="&lt;ul&gt;&lt;li&gt;メッセージ表示関数1（txtファイル読み込み）&lt;/li&gt;&lt;li&gt;メッセージ表示関数2（引数に任意の文字列）&lt;/li&gt;&lt;li&gt;画面遷移の演出関数（完了したら1が返ってくる）&lt;/li&gt;&lt;li&gt;サイコロを振る（引数にサイコロの数を指定。出目が返ってくる）&lt;/li&gt;&lt;li&gt;効果音&lt;/li&gt;&lt;li&gt;BGM&lt;/li&gt;&lt;li&gt;マウス操作の管理&lt;/li&gt;&lt;li&gt;キー操作の管理&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;labelBackgroundColor=#E6E6E6;" vertex="1" parent="1">
           <mxGeometry x="10" y="850" width="410" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tabBIetBldonEgp_fkkX" name="タイトル">
+    <mxGraphModel dx="942" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="CpK3AvV61S_HP_SXcNMO-0" />
+        <mxCell id="CpK3AvV61S_HP_SXcNMO-1" parent="CpK3AvV61S_HP_SXcNMO-0" />
+        <mxCell id="AOEPsk0v_knc0cKc4MVx-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#FFCCCC;" edge="1" parent="CpK3AvV61S_HP_SXcNMO-1" source="AOEPsk0v_knc0cKc4MVx-0" target="AOEPsk0v_knc0cKc4MVx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOEPsk0v_knc0cKc4MVx-0" value="起動" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=メイリオ;" vertex="1" parent="CpK3AvV61S_HP_SXcNMO-1">
+          <mxGeometry x="379" y="10" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AOEPsk0v_knc0cKc4MVx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#FFCCCC;" edge="1" parent="CpK3AvV61S_HP_SXcNMO-1" source="AOEPsk0v_knc0cKc4MVx-2" target="AOEPsk0v_knc0cKc4MVx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOEPsk0v_knc0cKc4MVx-2" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;プレイヤー1の名前の入力&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;labelBackgroundColor=#FFCCCC;" vertex="1" parent="CpK3AvV61S_HP_SXcNMO-1">
+          <mxGeometry x="155" y="150" width="209" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AOEPsk0v_knc0cKc4MVx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#FFCCCC;" edge="1" parent="CpK3AvV61S_HP_SXcNMO-1" source="AOEPsk0v_knc0cKc4MVx-3" target="AOEPsk0v_knc0cKc4MVx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOEPsk0v_knc0cKc4MVx-3" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;プレイヤー2の名前の入力&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;labelBackgroundColor=#FFCCCC;" vertex="1" parent="CpK3AvV61S_HP_SXcNMO-1">
+          <mxGeometry x="155" y="220" width="209" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AOEPsk0v_knc0cKc4MVx-9" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;2人&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#FFCCCC;" edge="1" parent="CpK3AvV61S_HP_SXcNMO-1" source="AOEPsk0v_knc0cKc4MVx-7" target="AOEPsk0v_knc0cKc4MVx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOEPsk0v_knc0cKc4MVx-7" value="プレイ人数" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;labelBackgroundColor=#FFFFFF;" vertex="1" parent="CpK3AvV61S_HP_SXcNMO-1">
+          <mxGeometry x="364" y="70" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AOEPsk0v_knc0cKc4MVx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#FFCCCC;" edge="1" parent="CpK3AvV61S_HP_SXcNMO-1" source="AOEPsk0v_knc0cKc4MVx-10" target="AOEPsk0v_knc0cKc4MVx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOEPsk0v_knc0cKc4MVx-10" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;プレイヤー1の名前の入力&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;labelBackgroundColor=#FFCCCC;" vertex="1" parent="CpK3AvV61S_HP_SXcNMO-1">
+          <mxGeometry x="464" y="150" width="209" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AOEPsk0v_knc0cKc4MVx-11" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;1人&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#FFCCCC;" edge="1" parent="CpK3AvV61S_HP_SXcNMO-1">
+          <mxGeometry x="-0.1327" relative="1" as="geometry">
+            <mxPoint x="463" y="100" as="sourcePoint" />
+            <mxPoint x="567.5" y="150" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AOEPsk0v_knc0cKc4MVx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="CpK3AvV61S_HP_SXcNMO-1" source="AOEPsk0v_knc0cKc4MVx-13" target="AOEPsk0v_knc0cKc4MVx-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOEPsk0v_knc0cKc4MVx-13" value="目標ルーレット" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="CpK3AvV61S_HP_SXcNMO-1">
+          <mxGeometry x="364" y="280" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AOEPsk0v_knc0cKc4MVx-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="CpK3AvV61S_HP_SXcNMO-1" source="AOEPsk0v_knc0cKc4MVx-16" target="AOEPsk0v_knc0cKc4MVx-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOEPsk0v_knc0cKc4MVx-16" value="地名ルーレット" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="CpK3AvV61S_HP_SXcNMO-1">
+          <mxGeometry x="364" y="370" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AOEPsk0v_knc0cKc4MVx-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#FFCCCC;" edge="1" parent="CpK3AvV61S_HP_SXcNMO-1" source="AOEPsk0v_knc0cKc4MVx-18" target="AOEPsk0v_knc0cKc4MVx-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOEPsk0v_knc0cKc4MVx-18" value="初期装備ルーレット&lt;br&gt;（プレイヤーの人数分）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="CpK3AvV61S_HP_SXcNMO-1">
+          <mxGeometry x="344" y="460" width="139" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AOEPsk0v_knc0cKc4MVx-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#FFCCCC;" edge="1" parent="CpK3AvV61S_HP_SXcNMO-1" source="AOEPsk0v_knc0cKc4MVx-20" target="AOEPsk0v_knc0cKc4MVx-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOEPsk0v_knc0cKc4MVx-20" value="マップ画面へ" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=メイリオ;" vertex="1" parent="CpK3AvV61S_HP_SXcNMO-1">
+          <mxGeometry x="363" y="650" width="101" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_jkmOg2LABF6yFG5ydYu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#FFCCCC;" edge="1" parent="CpK3AvV61S_HP_SXcNMO-1" source="AOEPsk0v_knc0cKc4MVx-22" target="_jkmOg2LABF6yFG5ydYu-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOEPsk0v_knc0cKc4MVx-22" value="先攻と後攻の決定&lt;br&gt;（サイコロ勝負）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=#FFFFFF;" vertex="1" parent="CpK3AvV61S_HP_SXcNMO-1">
+          <mxGeometry x="344" y="715" width="139" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AOEPsk0v_knc0cKc4MVx-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#FFCCCC;" edge="1" parent="CpK3AvV61S_HP_SXcNMO-1" source="AOEPsk0v_knc0cKc4MVx-24" target="AOEPsk0v_knc0cKc4MVx-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOEPsk0v_knc0cKc4MVx-24" value="マップの自動生成" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=#FFFFFF;" vertex="1" parent="CpK3AvV61S_HP_SXcNMO-1">
+          <mxGeometry x="336.25" y="580" width="155.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_jkmOg2LABF6yFG5ydYu-0" value="ゲームスタート" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=メイリオ;" vertex="1" parent="CpK3AvV61S_HP_SXcNMO-1">
+          <mxGeometry x="358" y="820" width="111" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_jkmOg2LABF6yFG5ydYu-3" value="&lt;h1 style=&quot;font-size: 20px&quot;&gt;ルーレット&lt;/h1&gt;&lt;p&gt;プレイヤー1はルーレットテーブルの決定&lt;/p&gt;&lt;p&gt;ルーレットテーブル：自動生成のためのテキストファイルから、6つのワードを選択。それぞれサイコロの1～6と関連付ける。&lt;br&gt;&lt;/p&gt;&lt;p&gt;プレイヤー2がサイコロを振り、その出目でワードを決定する&lt;/p&gt;&lt;p&gt;（プレイヤーが1人の場合はルーレットテーブルの決定を省略する）&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="CpK3AvV61S_HP_SXcNMO-1">
+          <mxGeometry x="530" y="380" width="270" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
