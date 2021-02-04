@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T14:53:32.286Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.56" etag="LngSfvBN6k2alfL_V2KY" version="14.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-04T14:57:00.146Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.56" etag="Ss7RdIjpNm2af50hdHmA" version="14.2.9" type="github" pages="2">
   <diagram id="GLFHSqSfIn8HMDW92Phs" name="全体の流れ">
     <mxGraphModel dx="942" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -207,7 +207,7 @@
         <mxCell id="AOEPsk0v_knc0cKc4MVx-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#FFCCCC;" edge="1" parent="CpK3AvV61S_HP_SXcNMO-1" source="AOEPsk0v_knc0cKc4MVx-18" target="AOEPsk0v_knc0cKc4MVx-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AOEPsk0v_knc0cKc4MVx-18" value="初期装備ルーレット&lt;br&gt;（プレイヤーの人数分）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="CpK3AvV61S_HP_SXcNMO-1">
+        <mxCell id="AOEPsk0v_knc0cKc4MVx-18" value="初期装備ルーレット&lt;br&gt;（テーブル決定省略）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="CpK3AvV61S_HP_SXcNMO-1">
           <mxGeometry x="344" y="460" width="139" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AOEPsk0v_knc0cKc4MVx-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#FFCCCC;" edge="1" parent="CpK3AvV61S_HP_SXcNMO-1" source="AOEPsk0v_knc0cKc4MVx-20" target="AOEPsk0v_knc0cKc4MVx-22">
