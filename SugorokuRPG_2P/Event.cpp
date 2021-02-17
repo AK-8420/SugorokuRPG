@@ -24,14 +24,14 @@ EventClass Game(EvSUM_Game, "text/Event_Game.txt");
 
 
 EventClass::EventClass(int EvSUM, const char* txtFile) {
-	pass = txtFile;
+	path = txtFile;
 	IDmax = EvSUM;
 	ID = (int*)malloc(sizeof(int) * IDmax);
 	for (int i = 0; i < IDmax; i++) ID[i] = i + 1;
 	shuffle();
 }
-EventClass::EventClass(int EvSUM, const char* txtFile, const TCHAR* csvFile) {
-	pass = txtFile;
+EventClass::EventClass(int EvSUM, const char* txtFile, const char* csvFile) {
+	path = txtFile;
 	IDmax = EvSUM;
 	ID = (int*)malloc(sizeof(int) * IDmax);
 
