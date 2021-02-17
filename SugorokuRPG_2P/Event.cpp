@@ -12,25 +12,14 @@
 #define EvSUM_Shop 0
 #define EvSUM_Game 0
 
-EventClass Card(EvSUM_Card, "text/Event_Card.txt");
-EventClass Enemy(EvSUM_Enemy, "text/Event_Enemy.txt");
-EventClass Talk(EvSUM_Talk, "text/Event_Talk.txt");
-EventClass Weapon(EvSUM_Weapon, "text/Event_Weapon.txt");
-EventClass Armor(EvSUM_Armor, "text/Event_Armor.txt");
-EventClass Object(EvSUM_Object, "text/Event_Object.txt");
-EventClass Heal(EvSUM_Heal, "text/Event_Heal.txt");
-EventClass Shop(EvSUM_Shop, "text/Event_Shop.txt");
-EventClass Game(EvSUM_Game, "text/Event_Game.txt");
-
-
-EventClass::EventClass(int EvSUM, const char* txtFile) {
+void EventClass::init_noChoice(int EvSUM, const char* txtFile) {
 	path = txtFile;
 	IDmax = EvSUM;
 	ID = (int*)malloc(sizeof(int) * IDmax);
 	for (int i = 0; i < IDmax; i++) ID[i] = i + 1;
 	shuffle();
 }
-EventClass::EventClass(int EvSUM, const char* txtFile, const char* csvFile) {
+void EventClass::init(int EvSUM, const char* txtFile, const char* csvFile) {
 	path = txtFile;
 	IDmax = EvSUM;
 	ID = (int*)malloc(sizeof(int) * IDmax);
@@ -61,4 +50,18 @@ int EventClass::getNextID() {
 	int ans = ID[head];
 	head++;
 	return ans;
+}
+
+EventClass Event[9];
+
+void Event_init() {
+	Event[e_Object].init_noChoice(EvSUM_Object, "text/Event_Object.txt");
+	Event[e_Card].init_noChoice(EvSUM_Card, "text/Event_Card.txt");
+	Event[e_Enemy].init_noChoice(EvSUM_Enemy, "text/Event_Enemy.txt");
+	Event[e_Talk].init_noChoice(EvSUM_Talk, "text/Event_Talk.txt");
+	Event[e_Weapon].init_noChoice(EvSUM_Weapon, "text/Event_Weapon.txt");
+	Event[e_Armor].init_noChoice(EvSUM_Armor, "text/Event_Armor.txt");
+	Event[e_Heal].init_noChoice(EvSUM_Heal, "text/Event_Heal.txt");
+	Event[e_Shop].init_noChoice(EvSUM_Shop, "text/Event_Shop.txt");
+	Event[e_Game].init_noChoice(EvSUM_Game, "text/Event_Game.txt");
 }
